@@ -11,16 +11,19 @@
 * Caching of Hex packages, Mix dependencies and downloads
 * Compilation procedure hooks through `hook_pre_compile`, `hook_compile`, `hook_post_compile` configuration
 
-#### Version support
+## Version support
 
-* Erlang - Prebuilt packages (17.5, 17.4, etc)
-  * The full list of prebuilt packages can be found here: 
-    * gigalixir-20 or heroku-20 stacks: https://builds.hex.pm/builds/otp/ubuntu-20.04/builds.txt
-    * heroku-22 stacks: https://builds.hex.pm/builds/otp/ubuntu-22.04/builds.txt
-    * All other stacks: https://github.com/HashNuke/heroku-buildpack-elixir-otp-builds/blob/master/otp-versions
-* Elixir - Prebuilt releases (1.0.4, 1.0.3, etc) or prebuilt branches (master, v1.7, etc)
-  * The full list of releases can be found here: https://github.com/elixir-lang/elixir/releases
-  * The full list of branches can be found here: https://github.com/elixir-lang/elixir/branches
+**Erlang**
+* Prebuilt erlang packages (17.5, 17.4, etc)
+* The full list of prebuilt packages can be found here: 
+  * gigalixir-20 or heroku-20 stacks: https://builds.hex.pm/builds/otp/ubuntu-20.04/builds.txt
+  * heroku-22 stacks: https://builds.hex.pm/builds/otp/ubuntu-22.04/builds.txt
+  * All other stacks: https://github.com/HashNuke/heroku-buildpack-elixir-otp-builds/blob/master/otp-versions
+
+**Elixir**
+* Prebuilt elixir releases (1.0.4, 1.0.3, etc) or prebuilt branches (master, v1.7, etc)
+* The full list of releases can be found here: https://github.com/elixir-lang/elixir/releases
+* The full list of branches can be found here: https://github.com/elixir-lang/elixir/branches
 
 Note: you should choose an Elixir and Erlang version that are [compatible with one another](https://hexdocs.pm/elixir/compatibility-and-deprecations.html#compatibility-between-elixir-and-erlang-otp).
 
